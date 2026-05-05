@@ -32,7 +32,7 @@ Create AIRS API credentials in SCM. Then in XSIAM, create a new credential in `S
 
 ### E. Importing the integration
 * Navigate to `Settings > Data Sources or Integrations` 
-* At top right click `Add new > Create Integration > + Import File` and select Prisma_AIRS.yml file
+* At top right click `Add new > Create Integration > + Import File` and select `Prisma_AIRS.yml` file
 * This will import the integration
 
 ---
