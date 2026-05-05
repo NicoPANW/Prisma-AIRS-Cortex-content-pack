@@ -1,0 +1,63 @@
+{
+	"brands": null,
+	"cacheVersn": 0,
+	"defaultIncidentType": "Prisma AIRS Violation",
+	"definitionId": "",
+	"description": "A mapper that maps raw Prisma AIRS JSON into Cortex XSIAM incident fields",
+	"feed": false,
+	"fromServerVersion": "",
+	"id": "Prisma AIRS Mapper",
+	"incidentSamples": null,
+	"indicatorSamples": null,
+	"instanceIds": null,
+	"isOverridable": false,
+	"itemVersion": "",
+	"keyTypeMap": null,
+	"locked": false,
+	"logicalVersion": 1,
+	"mapping": {
+		"Prisma AIRS Violation": {
+			"dontMapEventToLabels": true,
+			"internalMapping": {
+				"AIRS Application Name": {
+					"simple": "airsapplicationname"
+				},
+				"AIRS Detectors": {
+					"simple": "airsdetectors"
+				},
+				"AIRS Profile Name": {
+					"simple": "airsprofilename"
+				},
+				"AIRS Prompt": {
+					"simple": "airsprompt"
+				},
+				"AIRS Session ID": {
+					"simple": "airssessionid"
+				},
+				"AIRS TSG ID": {
+					"simple": "airstsgid"
+				},
+				"AIRS Threat Snippets": {
+					"simple": "airsthreatsnippets"
+				},
+				"AIRS Violation Breakdown": {
+					"simple": "airsviolationbreakdown"
+				},
+				"AIRS Violation Status": {
+					"simple": "airsviolationstatus"
+				}
+			}
+		}
+	},
+	"name": "Prisma AIRS Mapper",
+	"nameRaw": "Prisma AIRS Mapper",
+	"packID": "",
+	"packName": "",
+	"sourceClassifierId": "",
+	"system": false,
+	"toServerVersion": "",
+	"transformer": {},
+	"type": "mapping-incoming",
+	"unclassifiedCases": null,
+	"version": -1
+}

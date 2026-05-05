@@ -1,0 +1,34 @@
+{
+	"brands": null,
+	"cacheVersn": 0,
+	"defaultIncidentType": "",
+	"definitionId": "",
+	"description": "Classifies incoming Prisma AIRS data into the Prisma AIRS Violation incident type.",
+	"feed": false,
+	"fromServerVersion": "",
+	"id": "Prisma AIRS - Classifier",
+	"incidentSamples": null,
+	"indicatorSamples": null,
+	"instanceIds": null,
+	"isOverridable": false,
+	"itemVersion": "",
+	"keyTypeMap": {
+		"violated": "Prisma AIRS Violation"
+	},
+	"locked": false,
+	"logicalVersion": 0,
+	"mapping": null,
+	"name": "Prisma AIRS - Classifier",
+	"nameRaw": "Prisma AIRS - Classifier",
+	"packID": "",
+	"packName": "",
+	"sourceClassifierId": "",
+	"system": false,
+	"toServerVersion": "",
+	"transformer": {
+		"simple": "airsviolationstatus"
+	},
+	"type": "classification",
+	"unclassifiedCases": null,
+	"version": -1
+}

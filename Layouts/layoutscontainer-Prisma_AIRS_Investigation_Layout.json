@@ -1,0 +1,274 @@
+{
+	"cacheVersn": 0,
+	"close": null,
+	"definitionId": "",
+	"description": "Custom layout prioritizing Prisma AIRS specific fields.",
+	"detached": false,
+	"details": null,
+	"detailsV2": {
+		"TypeName": "",
+		"tabs": [
+			{
+				"id": "platformOverview",
+				"name": "Overview",
+				"type": "platformOverview"
+			},
+			{
+				"hidden": false,
+				"id": "kxjhryqrcg",
+				"name": "AIRS",
+				"sections": [
+					{
+						"displayType": "CARD",
+						"h": 4,
+						"hideName": false,
+						"i": "kxjhryqrcg-682cec1a-ab13-499b-910c-189884e571e2",
+						"items": [
+							{
+								"endCol": 2,
+								"fieldId": "airsapplicationname",
+								"height": 53,
+								"id": "413f098c-53f4-434d-b47c-fb20a36a6b0f",
+								"index": 0,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airsprompt",
+								"height": 106,
+								"id": "39f6a6a4-b3fa-47f6-93fa-511ab8462a13",
+								"index": 1,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airsdetectors",
+								"height": 53,
+								"id": "f74efedc-cfee-4e6e-9924-85371f546dfe",
+								"index": 2,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airsviolationstatus",
+								"height": 53,
+								"id": "039b7a56-67c5-4dc4-b2d2-17173d955328",
+								"index": 3,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airstsgid",
+								"height": 53,
+								"id": "cadb308f-4f2e-4d06-a793-03668c3d1321",
+								"index": 4,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airsprofilename",
+								"height": 53,
+								"id": "cceb1ff3-6736-4ffe-98b2-0f456badabdb",
+								"index": 5,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"dropEffect": "move",
+								"endCol": 2,
+								"fieldId": "airsviolationbreakdown",
+								"height": 53,
+								"id": "2e27cf27-35f0-4337-bbd6-b49ba1401394",
+								"index": 6,
+								"listId": "kxjhryqrcg-682cec1a-ab13-499b-910c-189884e571e2",
+								"sectionItemType": "field",
+								"startCol": 0
+							}
+						],
+						"maxW": 3,
+						"minH": 1,
+						"moved": false,
+						"name": "Overview",
+						"static": false,
+						"w": 1,
+						"x": 0,
+						"y": 0
+					},
+					{
+						"displayType": "CARD",
+						"h": 4,
+						"hideName": false,
+						"i": "kxjhryqrcg-14552066-5801-4988-b0cc-14ffefad5d1f",
+						"items": [
+							{
+								"dropEffect": "move",
+								"endCol": 2,
+								"fieldId": "airssessionid",
+								"height": 53,
+								"id": "ddaa171c-1d15-4b0a-85b9-dd6a8fffcd18",
+								"index": 0,
+								"listId": "kxjhryqrcg-14552066-5801-4988-b0cc-14ffefad5d1f",
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airsthreatsnippets",
+								"height": 106,
+								"id": "91bc6dd3-bd4d-46b7-9db2-ed325f598f0c",
+								"index": 2,
+								"sectionItemType": "field",
+								"startCol": 0
+							}
+						],
+						"maxW": 3,
+						"minH": 1,
+						"moved": false,
+						"name": "Details",
+						"static": false,
+						"w": 2,
+						"x": 1,
+						"y": 0
+					}
+				],
+				"type": "custom"
+			},
+			{
+				"id": "resolution",
+				"name": "Resolution",
+				"type": "resolution"
+			},
+			{
+				"id": "case_info",
+				"name": "Case Info",
+				"sections": [
+					{
+						"displayType": "ROW",
+						"h": 2,
+						"i": "airs-quick-triage",
+						"items": [
+							{
+								"endCol": 1,
+								"fieldId": "incident_airsapplicationname",
+								"id": "incident_airsapplicationname",
+								"startCol": 0,
+								"type": "Field"
+							},
+							{
+								"endCol": 1,
+								"fieldId": "incident_airsviolationstatus",
+								"id": "incident_airsviolationstatus",
+								"startCol": 0,
+								"type": "Field"
+							},
+							{
+								"endCol": 2,
+								"fieldId": "incident_airssessionid",
+								"id": "incident_airssessionid",
+								"startCol": 1,
+								"type": "Field"
+							},
+							{
+								"endCol": 2,
+								"fieldId": "incident_airstsgid",
+								"id": "incident_airstsgid",
+								"startCol": 1,
+								"type": "Field"
+							}
+						],
+						"name": "AIRS Quick Triage",
+						"type": "SECTION"
+					},
+					{
+						"displayType": "ROW",
+						"h": 2,
+						"i": "airs-violation-specifics",
+						"items": [
+							{
+								"endCol": 1,
+								"fieldId": "incident_airsdetectors",
+								"id": "incident_airsdetectors",
+								"startCol": 0,
+								"type": "Field"
+							},
+							{
+								"endCol": 2,
+								"fieldId": "incident_airsviolationbreakdown",
+								"id": "incident_airsviolationbreakdown",
+								"startCol": 1,
+								"type": "Field"
+							},
+							{
+								"endCol": 2,
+								"fieldId": "incident_airsprofilename",
+								"id": "incident_airsprofilename",
+								"startCol": 1,
+								"type": "Field"
+							}
+						],
+						"name": "Violation Specifics",
+						"type": "SECTION"
+					},
+					{
+						"displayType": "ROW",
+						"h": 2,
+						"i": "airs-prompt-payload",
+						"items": [
+							{
+								"endCol": 2,
+								"fieldId": "incident_airsprompt",
+								"id": "incident_airsprompt",
+								"startCol": 0,
+								"type": "Field"
+							}
+						],
+						"name": "The Prompt Payload",
+						"type": "SECTION"
+					},
+					{
+						"displayType": "ROW",
+						"h": 4,
+						"i": "airs-threat-snippets",
+						"items": [
+							{
+								"endCol": 2,
+								"fieldId": "incident_airsthreatsnippets",
+								"id": "incident_airsthreatsnippets",
+								"startCol": 0,
+								"type": "Field"
+							}
+						],
+						"name": "Threat Snippets",
+						"type": "SECTION"
+					}
+				]
+			}
+		]
+	},
+	"edit": null,
+	"fromServerVersion": "",
+	"group": "incident",
+	"id": "Prisma AIRS Investigation Layout",
+	"indicatorsDetails": null,
+	"indicatorsQuickView": null,
+	"isOverridable": false,
+	"itemVersion": "",
+	"locked": false,
+	"mobile": null,
+	"name": "Prisma AIRS Investigation Layout",
+	"packID": "",
+	"packName": "",
+	"propagationLabels": [
+		"all"
+	],
+	"quickView": null,
+	"quickViewV2": null,
+	"system": false,
+	"toServerVersion": "",
+	"version": -1
+}
