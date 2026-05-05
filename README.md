@@ -13,22 +13,27 @@ Because Cortex XSIAM treats fetched alerts as "Issues" and enforces a strict dat
 ### A. Required Custom Fields
 Instead of building the custom fields manually, you can automatically generate them by importing the provided JSON configuration file. 
 * Navigate to `Settings > Configurations > Object Setup > Issues > Fields`.
-* Click the **Import** button and upload the provided Custom Fields JSON file. 
+* Click the **Import** button and upload `Prisma_AIRS_customfields.json` file. 
 * This will instantly create all required fields with their correct data types.
 
 ### B. Required Classifier and Mapper
 Instead of building the mapping logic from scratch, you can import the provided configuration to automatically route your data.
 * Navigate to `Settings > Configurations > Object Setup > Issues > Classification & Mapping`.
-* Import the provided Classifier and Mapper JSON files. 
+* Import the provided Classifier `classifier-Prisma_AIRS_-_Classifier.json` file and Mapper `classifier-Prisma_AIRS_Mapper.json` file. 
 * This will automatically set up the rules to route fetched alerts into the `Prisma AIRS Violation` issue type, and perfectly map the JSON payload keys (e.g., `airsprompt`, `airsthreatsnippets`) directly to your newly imported Custom Fields.
 
 ### C. Custom Layout and Layout Rules
 To ensure the large JSON payloads and specific AIRS fields are easily readable by analysts without squishing or collapsing, you need to import the dedicated AIRS layout.
-* **Layouts:** Go to `Settings > Configurations > Object Setup > Issues > Layouts`. Click **Import** and upload the provided Layout JSON file. This layout is pre-configured with full-width sections to give massive fields like `AIRS Prompt` and `AIRS Threat Snippets` the room they need to expand.
+* **Layouts:** Go to `Settings > Configurations > Object Setup > Issues > Layouts`. Click **Import** and upload `layoutscontainer-Prisma_AIRS_Investigation_Layout.json` file. This layout is pre-configured with full-width sections to give massive fields like `AIRS Prompt` and `AIRS Threat Snippets` the room they need to expand.
 * **Layout Rules:** Go to `Settings > Configurations > Object Setup > Issues > Layout Rules` and define a quick rule so XSIAM knows when to apply your new view: *(e.g., If Alert Name contains "AIRS Violation", use the imported layout)*.
 
 ### D. AIRS API Credentials
 Create AIRS API credentials in SCM. Then in XSIAM, create a new credential in `Settings > Configurations > Integrations > Credentials` and fill in a name, username, and password accordingly.
+
+### E. Importing the integration
+* Navigate to `Settings > Data Sources or Integrations` 
+* At top right click `Add new > Create Integration > + Import File` and select Prisma_AIRS.yml file
+* This will import the integration
 
 ---
 
