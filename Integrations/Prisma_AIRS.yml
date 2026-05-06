@@ -409,9 +409,9 @@ script:
 
             # Build the Markdown description for the Incident Layout
             description = (
-                f"- **Environment:** {airs_environment}\n"
-                f"- **Application:** {app_name}\n"
-                f"- **Violated Detectors:** {violated_detectors_str}\n"
+                f"- **Env:** {airs_environment}\n"
+                f"- **App:** {app_name}\n"
+                f"- **Detectors:** {violated_detectors_str}\n"
             )
 
             # Map Prisma AIRS severity levels to XSIAM severity levels (1=Low, 4=Critical)
