@@ -83,3 +83,10 @@ You can also pull raw data straight from the Prisma AIRS API for manual investig
   Retrieves the entire raw user prompt.
 * `!airs-get-session-transaction session_id="<id>" app_id="<id>" app_name="<name>" scan_id="<id>"`  
   Retrieves overarching metadata regarding the AI interaction.
+
+---
+
+## 5. Known issues / troublesooting
+
+
+* In order to get new issues, you need to create them after you set up the integration. Note often, the very first issue takes time (about 30 minutes) to show up, while the subsequent ones show-up within a monite 
