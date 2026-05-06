@@ -26,10 +26,39 @@
 						"items": [
 							{
 								"endCol": 2,
+								"fieldId": "airsenvironment",
+								"height": 53,
+								"id": "04d2ae19-f9e5-41d8-892b-c280fcc50cf8",
+								"index": 0,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"dropEffect": "move",
+								"endCol": 2,
+								"fieldId": "userid",
+								"height": 53,
+								"id": "d1e838d9-8b39-4e51-9589-b5c1e893e99d",
+								"index": 1,
+								"listId": "kxjhryqrcg-682cec1a-ab13-499b-910c-189884e571e2",
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airsmodelname",
+								"height": 53,
+								"id": "c551afb6-83db-4245-b790-8811d7fbfd45",
+								"index": 2,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
 								"fieldId": "airsapplicationname",
 								"height": 53,
 								"id": "413f098c-53f4-434d-b47c-fb20a36a6b0f",
-								"index": 0,
+								"index": 3,
 								"sectionItemType": "field",
 								"startCol": 0
 							},
@@ -38,7 +67,7 @@
 								"fieldId": "airsprompt",
 								"height": 106,
 								"id": "39f6a6a4-b3fa-47f6-93fa-511ab8462a13",
-								"index": 1,
+								"index": 4,
 								"sectionItemType": "field",
 								"startCol": 0
 							},
@@ -47,7 +76,7 @@
 								"fieldId": "airsdetectors",
 								"height": 53,
 								"id": "f74efedc-cfee-4e6e-9924-85371f546dfe",
-								"index": 2,
+								"index": 5,
 								"sectionItemType": "field",
 								"startCol": 0
 							},
@@ -56,7 +85,7 @@
 								"fieldId": "airsviolationstatus",
 								"height": 53,
 								"id": "039b7a56-67c5-4dc4-b2d2-17173d955328",
-								"index": 3,
+								"index": 6,
 								"sectionItemType": "field",
 								"startCol": 0
 							},
@@ -65,7 +94,7 @@
 								"fieldId": "airstsgid",
 								"height": 53,
 								"id": "cadb308f-4f2e-4d06-a793-03668c3d1321",
-								"index": 4,
+								"index": 7,
 								"sectionItemType": "field",
 								"startCol": 0
 							},
@@ -74,7 +103,7 @@
 								"fieldId": "airsprofilename",
 								"height": 53,
 								"id": "cceb1ff3-6736-4ffe-98b2-0f456badabdb",
-								"index": 5,
+								"index": 8,
 								"sectionItemType": "field",
 								"startCol": 0
 							},
@@ -84,7 +113,7 @@
 								"fieldId": "airsviolationbreakdown",
 								"height": 53,
 								"id": "2e27cf27-35f0-4337-bbd6-b49ba1401394",
-								"index": 6,
+								"index": 9,
 								"listId": "kxjhryqrcg-682cec1a-ab13-499b-910c-189884e571e2",
 								"sectionItemType": "field",
 								"startCol": 0

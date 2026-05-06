@@ -6,7 +6,7 @@ name: Prisma AIRS
 display: Prisma AIRS
 category: Network Security
 image: data:image/png;base64,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
-imagepath: xsoar-files://xsoar/images/Prisma_AIRS_a0288352-e2d8-45f4-8b86-45455a0f8e18.png
+imagepath: xsoar-files://xsoar/images/Prisma_AIRS_89b201b5-c78c-4085-87f3-d0bde68be11b.png
 description: Prisma AIRS (AI Runtime Security) integration using the Violations API
   endpoint and Scan Content for exact prompts.
 detaileddescription: "## Prisma AIRS (AI Runtime Security) Integration\nThis integration
@@ -16,53 +16,53 @@ detaileddescription: "## Prisma AIRS (AI Runtime Security) Integration\nThis int
   Cortex XSIAM treats fetched alerts as \"Issues\" and enforces a strict data schema,
   this integration requires specific Custom Fields, a Classifier, an Incoming Mapper,
   and a Custom Layout to function properly. If these are not configured, XSIAM will
-  either drop the fetched alerts silently or render the data unreadable.\n\n\n**A.
-  Required Custom Fields**\nInstead of building the custom fields manually, you can
-  automatically generate them by importing the provided JSON configuration file. \n*
-  Navigate to `Settings > Configurations > Object Setup > Issues > Fields`.\n* Click
-  the **Import** button and upload the provided Custom Fields JSON file. \n* This
-  will instantly create all required fields with their correct data types.\n\n**B.
-  Required Classifier and Mapper**\nInstead of building the mapping logic from scratch,
-  you can import the provided configuration to automatically route your data.\n* Navigate
-  to `Settings > Configurations > Object Setup > Issues > Classification & Mapping`.\n*
-  Import the provided Classifier and Mapper JSON files. \n* This will automatically
-  set up the rules to route fetched alerts into the `Prisma AIRS Violation` issue
-  type, and perfectly map the JSON payload keys (e.g., `airsprompt`, `airsthreatsnippets`)
-  directly to your newly imported Custom Fields.\n\n**C. Custom Layout and Layout
-  Rules**\nTo ensure the large JSON payloads and specific AIRS fields are easily readable
-  by analysts without squishing or collapsing, you need to import the dedicated AIRS
-  layout.\n* **Layouts:** Go to `Settings > Configurations > Object Setup > Issues
-  > Layouts`. Click **Import** and upload the provided Layout JSON file. This layout
-  is pre-configured with full-width sections to give massive fields like `AIRS Prompt`
-  and `AIRS Threat Snippets` the room they need to expand.\n* **Layout Rules:** Go
-  to `Settings > Configurations > Object Setup > Issues > Layout Rules` and define
-  a quick rule so XSIAM knows when to apply your new view: *(e.g., If Alert Name contains
-  \"AIRS Violation\", use the imported layout)*.\n\n**D. AIRS API credentials**\nCreate
-  in SCM AIRS API credentials. Then in XSIAM create a new credential in `Settings
-  > Configurations > Integrations > Credentials` and fill in a name, username and
-  Password accordingly.\n\n---\n\n### 2. Field to populate\n\n**TSG ID (Tenant Service
-  Group ID)** => provide the corresponding TSGid\n**Credentials (Client ID, Client
-  Secret)** => select the credentials profile you created before\n**Classifier** =>
-  import the classifier (Prisma AIRS - Classifier) imported earlier\n**Mapper (incoming)**
-  => import the mapper (Prisma AIRS Mapper) imported earlier  \n**Minimum Severity**
-  => select what is the minimum severity to import\n\n\n---\n\n### 3. Playground Testing
-  Commands\nThe integration includes several custom commands designed to help you
-  verify data without waiting for the background fetching job. You can execute these
-  in the XSIAM CLI/Playground:\n\n* `!airs-reset-fetch`\n  * **Use Case:** Clears
-  the integration's deduplication memory. Use this if you want to force XSIAM to re-ingest
-  old violations during testing.\n* `!airs-get-fetch-sample`\n  * **Use Case:** Fetches
-  the data and prints the exact JSON payload directly to the screen *without* pushing
-  it into the XSIAM incidents table. Highly useful for debugging schema errors or
-  mapper misconfigurations.\n* `!fetch-incidents`\n  * **Use Case:** Forces an immediate
-  ingestion run. The data will be pulled and sent to your Incidents queue silently.
-  Note: This command is a reserved XSOAR command and intentionally does not include
-  the `airs-` prefix.\n\n### 4. API Investigation Commands\nYou can also pull raw
-  data straight from the Prisma AIRS API for manual investigation:\n* `!airs-get-violations
-  time_interval=1 time_unit=hour` (Retrieves a list of violations).\n* `!airs-get-threat-snippets
-  scan_id=\"<id>\"` (Retrieves the specific snippet that triggered the alert).\n*
-  `!airs-get-scan-content scan_id=\"<id>\"` (Retrieves the entire raw user prompt).\n*
-  `!airs-get-session-transaction session_id=\"<id>\" app_id=\"<id>\" app_name=\"<name>\"
-  scan_id=\"<id>\"` (Retrieves overarching metadata regarding the AI interaction)."
+  either drop the fetched alerts silently or render the data unreadable.\n\n**A. Required
+  Custom Fields**\nInstead of building the custom fields manually, you can automatically
+  generate them by importing the provided JSON configuration file. \n* Navigate to
+  `Settings > Configurations > Object Setup > Issues > Fields`.\n* Click the **Import**
+  button and upload the provided Custom Fields JSON file. \n* This will instantly
+  create all required fields with their correct data types.\n\n**B. Required Classifier
+  and Mapper**\nInstead of building the mapping logic from scratch, you can import
+  the provided configuration to automatically route your data.\n* Navigate to `Settings
+  > Configurations > Object Setup > Issues > Classification & Mapping`.\n* Import
+  the provided Classifier and Mapper JSON files. \n* This will automatically set up
+  the rules to route fetched alerts into the `Prisma AIRS Violation` issue type, and
+  perfectly map the JSON payload keys (e.g., `airsprompt`, `airsthreatsnippets`) directly
+  to your newly imported Custom Fields.\n\n**C. Custom Layout and Layout Rules**\nTo
+  ensure the large JSON payloads and specific AIRS fields are easily readable by analysts
+  without squishing or collapsing, you need to import the dedicated AIRS layout.\n*
+  **Layouts:** Go to `Settings > Configurations > Object Setup > Issues > Layouts`.
+  Click **Import** and upload the provided Layout JSON file. This layout is pre-configured
+  with full-width sections to give massive fields like `AIRS Prompt` and `AIRS Threat
+  Snippets` the room they need to expand.\n* **Layout Rules:** Go to `Settings > Configurations
+  > Object Setup > Issues > Layout Rules` and define a quick rule so XSIAM knows when
+  to apply your new view: *(e.g., If Alert Name contains \"AIRS Violation\", use the
+  imported layout)*.\n\n**D. AIRS API credentials**\nCreate in SCM AIRS API credentials.
+  Then in XSIAM create a new credential in `Settings > Configurations > Integrations
+  > Credentials` and fill in a name, username and Password accordingly.\n\n---\n\n###
+  2. Field to populate\n\n**TSG ID (Tenant Service Group ID)** => provide the corresponding
+  TSGid\n**Credentials (Client ID, Client Secret)** => select the credentials profile
+  you created before\n**Classifier** => import the classifier (Prisma AIRS - Classifier)
+  imported earlier\n**Mapper (incoming)** => import the mapper (Prisma AIRS Mapper)
+  imported earlier  \n**Minimum Severity** => select what is the minimum severity
+  to import\n\n---\n\n### 3. Playground Testing Commands\nThe integration includes
+  several custom commands designed to help you verify data without waiting for the
+  background fetching job. You can execute these in the XSIAM CLI/Playground:\n\n*
+  `!airs-reset-fetch`\n  * **Use Case:** Clears the integration's deduplication memory.
+  Use this if you want to force XSIAM to re-ingest old violations during testing.\n*
+  `!airs-get-fetch-sample`\n  * **Use Case:** Fetches the data and prints the exact
+  JSON payload directly to the screen *without* pushing it into the XSIAM incidents
+  table. Highly useful for debugging schema errors or mapper misconfigurations.\n*
+  `!fetch-incidents`\n  * **Use Case:** Forces an immediate ingestion run. The data
+  will be pulled and sent to your Incidents queue silently. Note: This command is
+  a reserved XSOAR command and intentionally does not include the `airs-` prefix.\n\n###
+  4. API Investigation Commands\nYou can also pull raw data straight from the Prisma
+  AIRS API for manual investigation:\n* `!airs-get-violations time_interval=1 time_unit=hour`
+  (Retrieves a list of violations).\n* `!airs-get-threat-snippets scan_id=\"<id>\"`
+  (Retrieves the specific snippet that triggered the alert).\n* `!airs-get-scan-content
+  scan_id=\"<id>\"` (Retrieves the entire raw user prompt).\n* `!airs-get-session-transaction
+  session_id=\"<id>\" app_id=\"<id>\" app_name=\"<name>\" scan_id=\"<id>\"` (Retrieves
+  overarching metadata regarding the AI interaction)."
 sectionorder:
 - Connect
 - Collect
@@ -122,7 +122,7 @@ configuration:
   - Critical
 - supportedModules: []
   section: Collect
-  display: First fetch time interval (Must be 1, 7, 30)
+  display: First fetch time interval (Hours must be 1 while Days can be 1, 7, 30)
   name: first_fetch_interval
   defaultvalue: "1"
   type: 0
@@ -131,7 +131,7 @@ configuration:
   section: Collect
   display: First fetch time unit (days or hours)
   name: first_fetch_unit
-  defaultvalue: days
+  defaultvalue: hours
   type: 0
   required: false
 - supportedModules: []
@@ -257,6 +257,9 @@ script:
 
         if unit.startswith('hour'):
             clean_unit = 'hour'
+            # Enforce exactly 1 hour if they select hours
+            if interval != 1:
+                interval = 1
         else:
             clean_unit = 'day'
             # Fallback to 1 if the user inputs an unsupported day interval
@@ -328,16 +331,18 @@ script:
             }
             return self._api_request('GET', '/aisec/v1/mgmt/dashboard/v2/sessions/sessiontransaction', params)
 
-    def fetch_incidents(client: Client, max_fetch: int, first_fetch_interval: int, first_fetch_unit: str, last_run: dict, min_severity: str) -> tuple[dict, list]:
+    def fetch_incidents(client: Client, max_fetch: int, first_fetch_interval: int, first_fetch_unit: str, last_run: dict, min_severity: str, incident_type: str) -> tuple[dict, list]:
         """Main automated polling logic used by the XSIAM 'fetch-incidents' background job."""
         incidents = []
 
-        # Load memory of previously ingested scan_ids to prevent duplicate alerts
-        fetched_ids = last_run.get('fetched_ids', [])
+        # FIX: Ensure it falls back to an empty list even if the API explicitly sent null previously
+        fetched_ids = last_run.get('fetched_ids') or []
 
         # Pull latest violations
         violations_response = client.get_violations_list(first_fetch_interval, first_fetch_unit, max_fetch, 0)
-        items = violations_response.get('items', [])
+
+        # FIX: Safely extract the items list so it never evaluates to None
+        items = violations_response.get('items') or []
 
         for item in items:
             scan_id = item.get('scan_id')
@@ -354,7 +359,7 @@ script:
             scan_sub_req_id = str(item.get('scan_sub_req_id', 0))
 
             # Check if this incident crosses our configured severity threshold
-            violation_breakdown = item.get('violation_breakdown', {})
+            violation_breakdown = item.get('violation_breakdown') or {}
             if not meets_severity_threshold(violation_breakdown, min_severity):
                 continue
 
@@ -369,11 +374,17 @@ script:
                 session_transaction = client.get_session_transaction(session_id, app_id, app_name, scan_id, scan_sub_req_id, first_fetch_interval, first_fetch_unit)
                 scan_content = client.get_scan_content(scan_id, scan_sub_req_id)
 
+            # --- EXTRACT ATTRIBUTES ---
+            session_attributes = session_transaction.get('attributes') or {}
+            airs_user_id = session_attributes.get('user_id', 'Unknown')
+            airs_environment = session_attributes.get('environment', 'Unknown')
+            airs_model_name = session_attributes.get('model_name', 'Unknown')
+
             # Extract just the detector names that tripped into a comma-separated string
-            dt_breakdown = item.get('detection_type_violation_breakdown', [])
+            dt_breakdown = item.get('detection_type_violation_breakdown') or []
             violated_detectors = []
             for dt in dt_breakdown:
-                total = dt.get('violation_breakdown', {}).get('total', 0)
+                total = (dt.get('violation_breakdown') or {}).get('total', 0)
                 if total > 0:
                     violated_detectors.append(dt.get('detection_type'))
             violated_detectors_str = ", ".join(violated_detectors) if violated_detectors else "None"
@@ -388,7 +399,7 @@ script:
                 airsthreatsnippets_str = "No snippets available"
 
             # Extract the pure prompt directly from the scan_content API
-            airsprompt_str = scan_content.get('scan_contents', {}).get('prompt', 'None')
+            airsprompt_str = (scan_content.get('scan_contents') or {}).get('prompt', 'None')
             if not airsprompt_str:
                 airsprompt_str = "None"
 
@@ -398,6 +409,7 @@ script:
 
             # Build the Markdown description for the Incident Layout
             description = (
+                f"- **Environment:** {airs_environment}\n"
                 f"- **Application:** {app_name}\n"
                 f"- **Violated Detectors:** {violated_detectors_str}\n"
             )
@@ -426,6 +438,9 @@ script:
 
                 # Flat keys specifically built for the XSIAM Mapper
                 'airsapplicationname': app_name,
+                'airsuserid': airs_user_id,
+                'airsenvironment': airs_environment,
+                'airsmodelname': airs_model_name,
                 'airssessionid': session_id,
                 'airsviolationstatus': item.get('status', 'violated'),
                 'airsdetectors': violated_detectors_str,
@@ -440,6 +455,7 @@ script:
             # Create the final Incident Object
             incident = {
                 'name': incident_name,
+                'type': incident_type,
                 'occurred': item.get('start_time', datetime.utcnow().isoformat() + 'Z'),
                 'details': description,
                 'severity': incident_severity,
@@ -461,15 +477,15 @@ script:
         args = demisto.args()
         command = demisto.command()
 
-        # Global input sanitizer to ensure API requirements are met
-        # Defaults to 1 day to ensure we don't fetch an unmanageable initial backlog.
-        safe_interval, safe_unit = sanitize_time_inputs(params.get('first_fetch_interval', '1'), params.get('first_fetch_unit', 'day'))
+        # Dynamically pulls from user parameters, defaults to 1 hour
+        safe_interval, safe_unit = sanitize_time_inputs(params.get('first_fetch_interval', '1'), params.get('first_fetch_unit', 'hours'))
+        incident_type = params.get('incidentType', 'Prisma AIRS Violation')
 
         try:
             # Initialize the API Client
             client = Client(
-                base_url=params.get('url', '[https://api.sase.paloaltonetworks.com](https://api.sase.paloaltonetworks.com)'),
-                auth_url=params.get('auth_url', '[https://auth.apps.paloaltonetworks.com/auth/v1/oauth2/access_token](https://auth.apps.paloaltonetworks.com/auth/v1/oauth2/access_token)'),
+                base_url=params.get('url', 'https://api.strata.paloaltonetworks.com'),
+                auth_url=params.get('auth_url', 'https://auth.apps.paloaltonetworks.com/auth/v1/oauth2/access_token'),
                 tsg_id=params.get('tsg_id', ''),
                 credentials=params.get('credentials', {}),
                 verify=not params.get('insecure', False),
@@ -489,7 +505,8 @@ script:
 
             elif command == 'airs-get-fetch-sample':
                 # Bypasses ingestion and prints what the integration WOULD have ingested directly to the UI
-                _, incidents = fetch_incidents(client, 10, safe_interval, safe_unit, {}, params.get('min_severity', 'Low'))
+                # FIX: Safeguard the getLastRun call to never be None
+                _, incidents = fetch_incidents(client, 10, safe_interval, safe_unit, demisto.getLastRun() or {}, params.get('min_severity', 'Low'), incident_type)
                 return_results(incidents)
 
             elif command == 'fetch-incidents':
@@ -499,8 +516,9 @@ script:
                     max_fetch=int(params.get('max_fetch', 50)),
                     first_fetch_interval=safe_interval,
                     first_fetch_unit=safe_unit,
-                    last_run=demisto.getLastRun(),
-                    min_severity=params.get('min_severity', 'Low')
+                    last_run=demisto.getLastRun() or {},
+                    min_severity=params.get('min_severity', 'Low'),
+                    incident_type=incident_type
                 )
                 demisto.setLastRun(next_run)
                 demisto.incidents(incidents)

@@ -25,6 +25,12 @@
 				"AIRS Detectors": {
 					"simple": "airsdetectors"
 				},
+				"AIRS Environment": {
+					"simple": "airsenvironment"
+				},
+				"AIRS Model Name": {
+					"simple": "airsmodelname"
+				},
 				"AIRS Profile Name": {
 					"simple": "airsprofilename"
 				},
@@ -45,6 +51,9 @@
 				},
 				"AIRS Violation Status": {
 					"simple": "airsviolationstatus"
+				},
+				"User Id": {
+					"simple": "airsuserid"
 				}
 			}
 		}
