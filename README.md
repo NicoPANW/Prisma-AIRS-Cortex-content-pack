@@ -89,4 +89,4 @@ You can also pull raw data straight from the Prisma AIRS API for manual investig
 ## 5. Known issues / troublesooting
 
 
-* In order to get new issues, you need to create them after you set up the integration. Note often, the very first issue takes time (about 30 minutes) to show up, while the subsequent ones show-up within a monite 
+* In order to get new issues, you need to create them after you set up the integration. Note often, the very first issue takes time (about 30 minutes) to show up, while the subsequent ones show-up within a minute 
