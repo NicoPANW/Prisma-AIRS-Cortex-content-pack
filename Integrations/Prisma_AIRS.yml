@@ -11,7 +11,7 @@ description: Prisma AIRS (AI Runtime Security) integration using the Violations 
   endpoint and Scan Content for exact prompts.
 detaileddescription: "## Prisma AIRS (AI Runtime Security) Integration\nThis integration
   connects to the Prisma AIRS API to fetch live AI security violations (Prompt Injections,
-  Toxic Content, Malicious URLs, Data Leaks) and automatically ingest them as alerts
+  Toxic Content, Malicious URLs, Data Leak) and automatically ingest them as alerts
   (Issues) into Cortex XSIAM.\n\n---\n\n### 1. Prerequisites and Setup Requirements\nBecause
   Cortex XSIAM treats fetched alerts as \"Issues\" and enforces a strict data schema,
   this integration requires specific Custom Fields, a Classifier, an Incoming Mapper,
@@ -389,6 +389,66 @@ script:
                     violated_detectors.append(dt.get('detection_type'))
             violated_detectors_str = ", ".join(violated_detectors) if violated_detectors else "None"
 
+            # --- EXTRACT TOOL META ---
+            tool_directions = set()
+            tool_ecosystems = set()
+            tool_methods = set()
+            tool_servers = set()
+            tool_names = set()
+
+            detector_snippets = threat_snippets.get('detector_snippets') or []
+            for ds in detector_snippets:
+                ts_list = ds.get('tool_snippets') or []
+                for ts in ts_list:
+                    tm = ts.get('tool_meta') or {}
+                    if tm.get('direction'): tool_directions.add(tm.get('direction'))
+                    if tm.get('ecosystem'): tool_ecosystems.add(tm.get('ecosystem'))
+                    if tm.get('method'): tool_methods.add(tm.get('method'))
+                    if tm.get('server'): tool_servers.add(tm.get('server'))
+                    if tm.get('tool_name'): tool_names.add(tm.get('tool_name'))
+
+            airs_tool_direction = ", ".join(tool_directions) if tool_directions else "None"
+            airs_tool_ecosystem = ", ".join(tool_ecosystems) if tool_ecosystems else "None"
+            airs_tool_method = ", ".join(tool_methods) if tool_methods else "None"
+            airs_tool_server = ", ".join(tool_servers) if tool_servers else "None"
+            airs_tool_name = ", ".join(tool_names) if tool_names else "None"
+
+            # --- EXTRACT TOOL PAYLOAD (DATA) SPLIT BY DIRECTION ---
+            airs_tool_input_list = []
+            airs_tool_output_list = []
+            tool_event_raw = (scan_content.get('scan_contents') or {}).get('tool_event')
+
+            # Extract tool event payloads (often stringified JSON)
+            if tool_event_raw:
+                if isinstance(tool_event_raw, str):
+                    try:
+                        tool_events = json.loads(tool_event_raw)
+                        if isinstance(tool_events, list):
+                            for event in tool_events:
+                                if isinstance(event, dict) and event.get('Data'):
+                                    direction = (event.get('Info') or {}).get('ToolDirection')
+                                    if direction == 0:
+                                        airs_tool_input_list.append(str(event.get('Data')))
+                                    elif direction == 1:
+                                        airs_tool_output_list.append(str(event.get('Data')))
+                                    else:
+                                        # Fallback if ToolDirection isn't strictly 0 or 1
+                                        airs_tool_output_list.append(str(event.get('Data')))
+                        else:
+                             airs_tool_output_list.append(str(tool_event_raw))
+                    except Exception:
+                        airs_tool_output_list.append(str(tool_event_raw))
+                else:
+                    airs_tool_output_list.append(str(tool_event_raw))
+
+            airs_tool_input_str = "\n\n".join(airs_tool_input_list) if airs_tool_input_list else "None"
+            airs_tool_output_str = "\n\n".join(airs_tool_output_list) if airs_tool_output_list else "None"
+
+            # Extract standard response if present
+            airs_response_str = (scan_content.get('scan_contents') or {}).get('response', 'None')
+            if not airs_response_str:
+                airs_response_str = "None"
+
             # --- EXTRACT EVERYTHING: Dump the entire payload into a formatted Markdown string ---
             if threat_snippets and threat_snippets.get('detector_snippets'):
                 # Dump to a pretty-printed JSON string with a 4-space indent
@@ -409,9 +469,13 @@ script:
 
             # Build the Markdown description for the Incident Layout
             description = (
-                f"- **Env:** {airs_environment}\n"
-                f"- **App:** {app_name}\n"
-                f"- **Detectors:** {violated_detectors_str}\n"
+                f"- **User:** {airs_user_id}\n"
+                f"- **Environment:** {airs_environment}\n"
+                f"- **Model:** {airs_model_name}\n"
+                f"- **Tool Name:** {airs_tool_name}\n"
+                f"- **Tool Server:** {airs_tool_server}\n"
+                f"- **Application:** {app_name}\n"
+                f"- **Violated Detectors:** {violated_detectors_str}\n"
             )
 
             # Map Prisma AIRS severity levels to XSIAM severity levels (1=Low, 4=Critical)
@@ -441,6 +505,19 @@ script:
                 'airsuserid': airs_user_id,
                 'airsenvironment': airs_environment,
                 'airsmodelname': airs_model_name,
+
+                # New Tool Meta keys
+                'airstooldirection': airs_tool_direction,
+                'airstoolecosystem': airs_tool_ecosystem,
+                'airstoolmethod': airs_tool_method,
+                'airstoolserver': airs_tool_server,
+                'airstoolname': airs_tool_name,
+
+                # Payload Extractions
+                'airstoolinput': airs_tool_input_str,
+                'airstooloutput': airs_tool_output_str,
+                'airsresponse': airs_response_str,
+
                 'airssessionid': session_id,
                 'airsviolationstatus': item.get('status', 'violated'),
                 'airsdetectors': violated_detectors_str,
