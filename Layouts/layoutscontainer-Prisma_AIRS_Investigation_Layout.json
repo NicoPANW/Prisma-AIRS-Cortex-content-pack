@@ -20,7 +20,7 @@
 				"sections": [
 					{
 						"displayType": "CARD",
-						"h": 4,
+						"h": 5,
 						"hideName": false,
 						"i": "kxjhryqrcg-682cec1a-ab13-499b-910c-189884e571e2",
 						"items": [
@@ -146,11 +146,11 @@
 								"startCol": 0
 							},
 							{
-								"endCol": 2,
+								"endCol": 4,
 								"fieldId": "airsthreatsnippets",
 								"height": 106,
 								"id": "91bc6dd3-bd4d-46b7-9db2-ed325f598f0c",
-								"index": 2,
+								"index": 1,
 								"sectionItemType": "field",
 								"startCol": 0
 							}
@@ -160,7 +160,86 @@
 						"moved": false,
 						"name": "Details",
 						"static": false,
-						"w": 2,
+						"w": 1,
+						"x": 2,
+						"y": 0
+					},
+					{
+						"displayType": "ROW",
+						"h": 5,
+						"hideName": false,
+						"i": "kxjhryqrcg-994fa34d-4990-4baa-a621-a02a152b98c4",
+						"items": [
+							{
+								"endCol": 2,
+								"fieldId": "airstooldirection",
+								"height": 26,
+								"id": "ed30053e-f520-47b2-8dc7-5bb7c23a0ebe",
+								"index": 0,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airstoolecosystem",
+								"height": 26,
+								"id": "0e540d82-0357-4090-8329-fc6771ae1caa",
+								"index": 1,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airstoolmethod",
+								"height": 26,
+								"id": "69eabda2-486a-4a6b-b399-a217dbe1c8f4",
+								"index": 2,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airstoolname",
+								"height": 26,
+								"id": "cee3cae8-76dd-4555-aecb-da8606e5df53",
+								"index": 3,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airstoolresponse",
+								"height": 26,
+								"id": "52ce696c-77aa-47b5-a79b-0ae255c9376d",
+								"index": 4,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airstoolinput",
+								"height": 52,
+								"id": "65e64f1a-99cd-46b7-993a-f192227f5571",
+								"index": 4,
+								"sectionItemType": "field",
+								"startCol": 0
+							},
+							{
+								"endCol": 2,
+								"fieldId": "airstooloutput",
+								"height": 26,
+								"id": "b4b8e6a9-ef11-4301-8f23-7256a6391130",
+								"index": 5,
+								"sectionItemType": "field",
+								"startCol": 0
+							}
+						],
+						"maxW": 3,
+						"minH": 1,
+						"moved": false,
+						"name": "MCP data",
+						"static": false,
+						"w": 1,
 						"x": 1,
 						"y": 0
 					}
