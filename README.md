@@ -9,7 +9,7 @@ This integration connects to the Prisma AIRS API to fetch live AI security viola
   <br><br>
   <img width="1847" height="839" alt="Screenshot 2026-05-06 at 14 31 56" src="https://github.com/user-attachments/assets/dc99305f-0606-477c-8dde-ce9fd5b12c52" />
   <br><br>
-  <img width="1847" height="844" alt="Screenshot 2026-05-06 at 14 32 37" src="https://github.com/user-attachments/assets/7767f19f-a28b-4c5a-a156-4fd9eb84cb4e" />
+  <img width="1850" height="847" alt="Screenshot 2026-05-13 at 16 08 27" src="https://github.com/user-attachments/assets/8c8b5466-5781-4e47-a7d0-3803c3c49c08" />
 </p>
 
 
