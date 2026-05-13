@@ -37,6 +37,9 @@
 				"AIRS Prompt": {
 					"simple": "airsprompt"
 				},
+				"AIRS Response": {
+					"simple": "airsresponse"
+				},
 				"AIRS Session ID": {
 					"simple": "airssessionid"
 				},
@@ -45,6 +48,27 @@
 				},
 				"AIRS Threat Snippets": {
 					"simple": "airsthreatsnippets"
+				},
+				"AIRS Tool Direction": {
+					"simple": "airstooldirection"
+				},
+				"AIRS Tool Ecosystem": {
+					"simple": "airstoolecosystem"
+				},
+				"AIRS Tool Input": {
+					"simple": "airstoolinput"
+				},
+				"AIRS Tool Method": {
+					"simple": "airstoolmethod"
+				},
+				"AIRS Tool Name": {
+					"simple": "airstoolname"
+				},
+				"AIRS Tool Output": {
+					"simple": "airstooloutput"
+				},
+				"AIRS Tool Server": {
+					"simple": "airstoolserver"
 				},
 				"AIRS Violation Breakdown": {
 					"simple": "airsviolationbreakdown"
